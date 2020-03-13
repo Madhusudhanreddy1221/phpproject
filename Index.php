@@ -30,8 +30,8 @@
                     </ul>
                 </div>
                 <div id="add_job">
-                    <span class="link"><a>Login</a></span>
-                    <span class="link"><a>Register</a></span>
+                    <span class="link"><a href="login.php">Login</a></span>
+                    <span class="link"><a href="register.php">Register</a></span>
                 </div>
             </nav>
         </header>

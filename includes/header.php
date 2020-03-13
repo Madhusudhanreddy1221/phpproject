@@ -17,7 +17,7 @@
                 <li class="link"><i class="far fa-user fa-lg"></i></li>
             </ul>
         </div>
-        <div id="add_job">
+        <div id="login_register">
             <span class="link"><a>Login</a></span>
             <span class="link"><a>Register</a></span>
         </div>
