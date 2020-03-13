@@ -10,7 +10,6 @@
     <script src="js/Script.js"></script>
 </head>
 <body>
-
     <?php include 'includes/header.php';?>
     <div class="container">
         <div class="row">
@@ -27,21 +26,22 @@
                                 <label for="Email">Email address</label>
                                 <input type="email" id="Email" class="form-control" placeholder="Email address" required autofocus>
                             </div>
-
                             <div class="form-label-group">
                                 <label for="inputPassword">Password</label>
                                 <input type="password" id="Password" class="form-control" placeholder="Password" required>
-
                             </div>
                             <div class="form-label-group">
                                 <label for="inputPassword"> Confirm Password</label>
                                 <input type="password" id="CPassword" class="form-control" placeholder=" Confirm Password" required>
-
                             </div>
-
-                            <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Register</button>
+                            <div>
+                                <p></p>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-primary  text-uppercase" type="submit">Register</button>
+                            </div>
                             <hr class="my-4">
-                            <span>Already have an account?</span><span class="link"><a href="register.php">Sign In</a></span>
+                            <span>Already have an account? </span><span class="link"><a href="login.php">Sign In</a></span>
                         </form>
                     </div>
                 </div>

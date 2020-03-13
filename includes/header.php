@@ -1,7 +1,7 @@
 <header>
     <nav id="navigation">
         <div id="logo">
-            <span id="logo"><img src="images/logo.png" /></span>
+            <a href="index.php"> <span id="logo"><img src="images/logo.png" /></span></a>
         </div>
         <div id="nav_links">
             <ul id="menu">
@@ -18,8 +18,8 @@
             </ul>
         </div>
         <div id="login_register">
-            <span class="link"><a>Login</a></span>
-            <span class="link"><a>Register</a></span>
+            <span class="link"><a href="login.php">Login</a></span>
+            <span class="link"><a href="register.php">Register</a></span>
         </div>
     </nav>
 </header>

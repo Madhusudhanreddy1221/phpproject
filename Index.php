@@ -10,37 +10,11 @@
         <script src="js/Script.js"></script>
     </head>
     <body>
-        <header>
-            <nav id="navigation">
-                <div id="logo">
-                    <span id="logo"><img src="images/logo.png" /></span>
-                </div>
-                <div id="nav_links">
-                    <ul>
-                        <li><span class="link" href="#">Find Jobs</span></li>
-                        <li><span class="link" href="#">Company Reviews</span></li>
-                        <li><span class="link" href="#">Find Salaries</span></li>
-                    </ul>
-                </div>
-                <div id="nav_icons">
-                    <ul>
-                        <li class="link"><i class="fad fa-comments-alt fa-lg"></i></li>
-                        <li class="link"><i class="far fa-bell fa-lg"></i></li>
-                        <li class="link"><i class="far fa-user fa-lg"></i></li>
-                    </ul>
-                </div>
-                <div id="add_job">
-                    <span class="link"><a href="login.php">Login</a></span>
-                    <span class="link"><a href="register.php">Register</a></span>
-                </div>
-            </nav>
-        </header>
-
+    <?php include 'includes/header.php';?>
         <main id="main">
             <section id="section1">
                 <h1>Find your dream job</h1>
                 <h2>Discover thousands of jobs and reviews</h2>
-
                 <form method="post" action="#">
                     <input type="text" name="search" id="search" placeholder="title,keywords, or company">
                     <input type="submit" class="btn btn-primary" value="Find Jobs">
@@ -101,31 +75,9 @@
                             </div>
                         </div>
                     </div>
-
                 </article>
             </section>
         </main>
-        <footer>
-            <div id="footer_links">
-                <ul>
-                    <li><span class="link" href="#">Jobs</span></li>
-                    <li>-</li>
-                    <li><span class="link" href="#">Browse Companies</span></li>
-                    <li>-</li>
-                    <li><span class="link" href="#">Salaries</span></li>
-                    <li>-</li>
-                    <li><span class="link" href="#">Browse Jobs</span></li>
-                    <li>-</li>
-                    <li><span class="link" href="#">Employer Events</span></li>
-                    <li>-</li>
-                    <li><span class="link" href="#">About</span></li>
-                    <li>-</li>
-                    <li><span class="link" href="#">Help Centre</span></li>
-                </ul>
-            </div>
-            <div id="footer_copyright">
-                <p>&copy; 2020 Brogrammers Inc</p>
-            </div>
-        </footer>
+    <?php include 'includes/footer.php';?>
     </body>
 </html>
